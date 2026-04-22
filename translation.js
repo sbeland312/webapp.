@@ -152,7 +152,7 @@ function displayData(data) {
 
       <div class="item-header">
         <h2>
-          <a href="${https://snaccooperative.org/view/85524551#holding-repository" target="_blank" rel="noopener noreferrer">
+          <a href="${https://snaccooperative.org/view/85524551#holding-repository}" target="_blank" rel="noopener noreferrer">
             ${obj.SNAC_Holding_Repository || ''}
           </a>
         </h2>
