@@ -175,36 +175,36 @@ function displayData(data) {
           <span class="inline-label">
             ${translations[currentLanguage].scope}:
           </span>
-          ${(currentLanguage === "es"
+          ${currentLanguage === "es"
             ? obj.Alcance_y_Contenido || ''
-            : obj.Scope_and_Contents || '')}
+            : obj.Scope_and_Contents || ''}
         </p>
 
         <p>
           <span class="inline-label">
             ${translations[currentLanguage].subjects}:
           </span>
-          ${(currentLanguage === "es"
+          ${currentLanguage === "es"
             ? obj.Materias_en_Espanol || ''
-            : obj.Subjects_in_English || '')}
+            : obj.Subjects_in_English || ''}
         </p>
 
         <p>
           <span class="inline-label">
             ${translations[currentLanguage].languages}:
           </span>
-          ${(currentLanguage === "es"
+          ${currentLanguage === "es"
             ? obj.Idiomas || ''
-            : obj.Languages || '')}
+            : obj.Languages || ''}
         </p>
 
         <p>
           <span class="inline-label">
             ${translations[currentLanguage].countries}:
           </span>
-          ${(currentLanguage === "es"
+          ${currentLanguage === "es"
             ? obj.Paises || ''
-            : obj.Countries || '')}
+            : obj.Countries || ''}
         </p>
 
       </div>
